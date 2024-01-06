@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import AddTodo from "./AddTodo";
 import TodoList from "./TodoList";
 import EditTodo from "./EditTodo";
@@ -96,7 +96,7 @@ class Todos extends Component {
     });
   };
 
-  handleSearchChange = (e) => {};
+  handleSearchChange = () => {};
 
   render() {
     const { todos, adding, editing, search, todoEditing } = this.state;
