@@ -21,8 +21,8 @@ class Todos extends Component {
         },
         {
           id: 3,
-          status: false,
-          work: "Third thing to do",
+          status: true,
+          work: "Cooker",
         },
       ],
       adding: false,
